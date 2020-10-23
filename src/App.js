@@ -6,6 +6,13 @@ const api = {
 }
 
 function App() {
+
+  const dateBuilder = (d) => {
+    let months = ["January", "Febuary", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"];
+    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  }
+
   return (
     <div className="app">
       <main>
@@ -18,7 +25,7 @@ function App() {
         </div>
         <div className="location-box">
           <div className="location">Newark NJ USA</div>
-<div className="date"></div>
+          <div className="date"></div>
         </div>
       </main>
     </div>
