@@ -49,12 +49,12 @@ function App() {
             />
           </div>
           <div className="location-box">
-            <div className="location">Newark NJ USA</div>
+            <div className="location">Elizabeth NJ USA</div>
             <div className="date">{dateBuilder(new Date())}</div>
           </div>
           <div className="weather-box">
             <div className="temp">
-              15°f
+              15°F
           </div>
             <div className="weather">
               Sunny
